@@ -1,0 +1,25 @@
+name: "Wayback Sitemap Archiver"
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: "0 0 * * 0" # At 00:00 on Sunday
+
+jobs:
+  bot:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Install Node
+      uses: actions/setup-node@v1
+      with:
+        node-version: '13.x'
+
+    - name: Install NPM dependancies
+      run: npm install
+
+    - name: Run code
+      run: node index

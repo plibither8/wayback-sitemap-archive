@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "node-fetch": "^2.6.0",
+    "sitemapper": "^3.0.5"
+  }
+}
