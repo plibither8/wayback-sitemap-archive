@@ -6,8 +6,6 @@
 
 ## Usage
 
-Create a Gist, note it's ID. This is where we will store the (old) followers list.
-
 * Clone this repo.
 * Install npm dependencies: `npm install`
 * Change `SITEMAP_URL` to your sitemap or pass it as the command-line argument.
