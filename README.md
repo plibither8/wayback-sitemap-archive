@@ -1,7 +1,7 @@
 # 🏛 Wayback Sitemap Archive
 
 ![Build Status](https://github.com/plibither8/wayback-sitemap-archive/workflows/Wayback%20Sitemap%20Archiver/badge.svg)
-![npm](https://img.shields.io/npm/v/wayback-sitemap-archive)
+[![npm](https://img.shields.io/npm/v/wayback-sitemap-archive)](http://npmjs.com/package/wayback-sitemap-archive)
 
 > Archive all pages specified in the webpage's sitemap to Internet Archive's Wayback Machine.
 
