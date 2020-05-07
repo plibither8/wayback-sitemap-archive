@@ -1,6 +1,6 @@
 {
   "name": "wayback-sitemap-archive",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "🏛️ Archive all pages specified in the webpage's sitemap to Internet Archive's Wayback Machine",
   "main": "index.js",
   "repository": {
