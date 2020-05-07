@@ -12,6 +12,8 @@ const main = async () => {
 		process.exit(1);
 	}
 
+	console.log('Fetching sitemap for', SITEMAP_URL);
+
 	const sitemap = new Sitemapper();
 	const {sites} = await sitemap
 		.fetch(SITEMAP_URL)
